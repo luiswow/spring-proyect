@@ -16,7 +16,7 @@ private IClienteDao clienteDao;
 	@Override
 	@Transactional(readOnly=true)
 	public List<Cliente> findAll() {
-		// 
+		
 		return (List<Cliente>)clienteDao.findAll();
 	}
 	@Transactional
